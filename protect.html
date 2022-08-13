@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>COVID-19 INTERACTIVE DASHBOARD</title>
+  
+    <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+           
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="covidtracker.html">COVID-19 CASES TRACKER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>STEPS TO PROTECT YOURSELF FROM COVID-19</h1>
+       
+        </section>
+    <!--------------------------PROTECT CONTENT--------------------------->
+    
+    <section class="protect">
+        <div class="row">
+        <div class="protect-col">
+            
+            <h1><img src="images/plogo1.png">Get Vaccinated</h1>
+            <p><b>->Authorized COVID-19 vaccines can help protect you from COVID-19.<br>
+                  ->You should get a COVID-19 vaccine as soon as you can.<br>
+                  ->Once you are fully vaccinated, you may be able to start doing some things that you had stopped doing because of the pandemic.<br></b></p>
+           
+            <a href="https://selfregistration.cowin.gov.in/" class="hero1-btn">FOR VACCINATION<br>CLICK THIS LINK</a>
+            
+            
+            <h1><img src="images/plogo2.png">Wear a mask</h1>
+            <p><b>->If you are not fully vaccinated and aged 2 or older, you should wear a mask in indoor public places.<br>
+                  ->In areas with high numbers of COVID-19 cases, consider wearing a mask in crowded outdoor settings and for activities with close contact with others who are not fully vaccinated.<br>
+                  ->People who have a condition or are taking medications that weaken their immune system may not be fully protected even if they are fully vaccinated. They should continue to take all precautions recommended for unvaccinated people, including wearing a well-fitted mask, until advised otherwise by their healthcare provider.<br>
+                  ->If you are fully vaccinated, to maximize protection from the Delta variant and prevent possibly spreading it to others, wear a mask indoors in public if you are in an area of substantial or high transmission.<br>
+                  ->If you are fully vaccinated, see When You’ve Been Fully Vaccinated.<br>
+                ->Wearing a mask over your nose and mouth is required on planes, buses, trains, and other forms of public transportation traveling into, within, or out of the United States and while indoors at U.S. transportation hubs such as airports and stations. Travelers are not required to wear a mask in outdoor areas of a conveyance (like on open deck areas of a ferry or the uncovered top deck of a bus).<br></b></p>
+            
+            
+            <h1><img src="images/plogo3.png">Stay 6 feet away from others</h1>
+            <p><b><i>Inside your home:</i><br> 
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;->Avoid close contact with people who are sick.<br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;->If possible, maintain 6 feet between the person who is sick and other household members.<br><br>
+                  <i>Outside your home</i>:<br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;->Put 6 feet of distance between yourself and people who don’t live in your household.<br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;->Remember that some people without symptoms may be able to spread virus.<br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;->Stay at least 6 feet (about 2 arm lengths) from other people.<br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;->Keeping distance from others is especially important for people who are at higher risk of getting very sick.<br></b></p>
+            
+            
+            <h1><img src="images/plogo4.png">Avoid crowds and poorly ventilated spaces</h1>
+            <p><b>->Being in crowds like in restaurants, bars, fitness centers, or movie theaters puts you at higher risk for COVID-19.<br>
+                  ->Avoid indoor spaces that do not offer fresh air from the outdoors as much as possible.<br>
+                  ->If indoors, bring in fresh air by opening windows and doors, if possible.<br></b></p>
+            
+            
+            <h1><img src="images/plogo5.png">Wash your hands often</h1>
+            <p><b>->Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after         blowing your nose, coughing, or sneezing.<br>
+                -><i>It’s especially important to wash</i>:<br><br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* Before eating or preparing food<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* Before touching your face<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* After using the restroom<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* After leaving a public place<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* After blowing your nose, coughing, or sneezing<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* After handling your mask<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* After changing a diaper<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* After caring for someone sick<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* After touching animals or pets<br>
+                  ->If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.<br>
+                  ->Avoid touching your eyes, nose, and mouth with unwashed hands.<br></b></p>
+                
+                
+              <h1><img src="images/plogo6.png">Cover coughs and sneezes</h1>    
+                <p><b>-><i>If you are wearing a mask:</i><br>
+                   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* You can cough or sneeze into your mask. Put on a new, clean mask as soon as possible and wash your hands.<br>
+                    -><i>If you are not wearing a mask</i>:<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* Always cover your mouth and nose with a tissue when you cough or sneeze, or use the inside of your elbow and do not spit.<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* Throw used tissues in the trash.<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;* Immediately wash your hands with soap and water for at least 20 seconds. If soap and water are not readily available, clean your hands with a <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;hand sanitizer that contains at least 60% alcohol.</b></p>    
+                
+                <h1><img src="images/plogo7.png">Clean and disinfect</h1> 
+                <p><b>->Clean high touch surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.<br>
+                    ->If someone is sick or has tested positive for COVID-19, disinfect frequently touched surfaces. Use a household disinfectant product from EPA’s List N: Disinfectants for <br>&emsp;Coronavirus (COVID-19)external icon according to manufacturer’s labeled directions.<br>
+                    ->If surfaces are dirty, clean them using detergent or soap and water prior to disinfection.<br></b></p>
+        
+            
+            <h1><img src="images/plogo8.png">Monitor your health daily</h1>
+            <p><b>->Be alert for symptoms. Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.<br>
+                    ->Especially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.<br>
+                    ->Take your temperature if symptoms develop.<br>
+                    ->Don’t take your temperature within 30 minutes of exercising or after taking medications that could lower your temperature, like acetaminophen.<br></b></p>
+        
+            
+            <a href="index.html" class="hero1-btn">GO BACK TO HOME</a>
+        
+        </div>
+    </div>
+</section>
+    
+    
+    
+    
+     
+<!----------------------------------FOOTER----------------------------------->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p><b>Dedicated to the well-being of all people and guided by science,Our Organization make global efforts to give everyone,everywhere regular updates about COVID -19.Our organisation's work remains firmly rooted in the basic principles of the right to information for all people, as outlined in our 1948 Constitution. The World Health Assembly is the decision-making body of our organisation and is attended by delegations from all Member States.</b></p>
+        <div class="icons">
+         <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/munibalaji_sai/?hl=en"><i class="fa fa-instagram"></i></a>
+        <a href="https://in.linkedin.com/in/muni-balaji-ambiti-631442225?trk=people-guest_people_search-card"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+        <p><i class="fa fa-copyright"></i> <b>MADE BY MUNIBALAJI.A</b></p>
+    
+    </section>
+
+<!-------------------JAVASCRIPT FOR TOGGLE menu ---------------------->    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+<!------------------------------------------------------------------------>
+    
+    
+    
+    </body>
+</html>
+
+
